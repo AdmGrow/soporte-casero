@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://admgrow.github.io/soporte-casero/sitemap.xml

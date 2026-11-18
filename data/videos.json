@@ -1,0 +1,8 @@
+{
+ "nota": "Calendario de publicación de YouTube de Soporte casero, en orden de salida. Horas en Argentina (GMT-3). Agregá una fila por video nuevo.",
+ "zona_horaria": "America/Argentina/Buenos_Aires (GMT-3)",
+ "videos": [
+  {"fecha": "2026-11-18T17:00:00-03:00", "tipo": "short", "titulo": "Cómo crear un documento en Google Docs en 3 pasos (gratis)", "youtube_id": "uH-alYmBCdM", "playlist": "Shorts – Google Docs", "estado": "programado", "leccion": 1, "post": "blog/crear-documento-google-docs.html", "issue": null},
+  {"fecha": "2026-11-19T09:00:00-03:00", "tipo": "short", "titulo": "Cómo buscar y reemplazar una palabra en Google Docs (3 pasos)", "youtube_id": "S98nLIFmK3w", "playlist": "Shorts – Google Docs", "estado": "programado", "leccion": 12, "post": "blog/buscar-y-reemplazar-google-docs.html", "issue": null}
+ ]
+}
