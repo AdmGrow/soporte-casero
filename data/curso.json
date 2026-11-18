@@ -21,7 +21,7 @@
   "largo": {
    "titulo": "Google Docs para principiantes: lo básico paso a paso",
    "estado": "pendiente",
-   "issue": null
+   "issue": 54
   }
  },
  "estados": {
@@ -77,7 +77,7 @@
    "fecha": "2026-11-18T17:00:00-03:00",
    "youtube_id": "uH-alYmBCdM",
    "post": "blog/crear-documento-google-docs.html",
-   "issue": null,
+   "issue": 1,
    "bloque": "Bloque 1 – Lo básico",
    "titulo_video": "Cómo crear un documento en Google Docs en 3 pasos (gratis)"
   },
@@ -89,7 +89,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 2,
    "bloque": "Archivo"
   },
   {
@@ -100,7 +100,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 3,
    "bloque": "Archivo"
   },
   {
@@ -111,7 +111,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 4,
    "bloque": "Archivo"
   },
   {
@@ -122,7 +122,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 5,
    "bloque": "Archivo"
   },
   {
@@ -133,7 +133,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 6,
    "bloque": "Bloque 1 – Lo básico"
   },
   {
@@ -144,7 +144,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 7,
    "bloque": "Archivo"
   },
   {
@@ -155,7 +155,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 8,
    "bloque": "Archivo"
   },
   {
@@ -166,7 +166,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 9,
    "bloque": "Archivo"
   },
   {
@@ -177,7 +177,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 10,
    "bloque": "Archivo"
   },
   {
@@ -188,7 +188,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 11,
    "bloque": "Editar"
   },
   {
@@ -199,7 +199,7 @@
    "fecha": "2026-11-19T09:00:00-03:00",
    "youtube_id": "S98nLIFmK3w",
    "post": "blog/buscar-y-reemplazar-google-docs.html",
-   "issue": null,
+   "issue": 12,
    "bloque": "Bloque 1 – Lo básico",
    "titulo_video": "Cómo buscar y reemplazar una palabra en Google Docs (3 pasos)"
   },
@@ -211,7 +211,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 13,
    "bloque": "Ver"
   },
   {
@@ -222,7 +222,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 14,
    "bloque": "Ver"
   },
   {
@@ -233,7 +233,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 15,
    "bloque": "Ver"
   },
   {
@@ -244,7 +244,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 16,
    "bloque": "Ver"
   },
   {
@@ -255,7 +255,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 17,
    "bloque": "Insertar"
   },
   {
@@ -266,7 +266,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 18,
    "bloque": "Insertar"
   },
   {
@@ -277,7 +277,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 19,
    "bloque": "Insertar"
   },
   {
@@ -288,7 +288,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 20,
    "bloque": "Insertar"
   },
   {
@@ -299,7 +299,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 21,
    "bloque": "Insertar"
   },
   {
@@ -310,7 +310,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 22,
    "bloque": "Insertar"
   },
   {
@@ -321,7 +321,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 23,
    "bloque": "Insertar"
   },
   {
@@ -332,7 +332,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 24,
    "bloque": "Insertar"
   },
   {
@@ -343,7 +343,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 25,
    "bloque": "Insertar"
   },
   {
@@ -354,7 +354,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 26,
    "bloque": "Insertar"
   },
   {
@@ -365,7 +365,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 27,
    "bloque": "Insertar"
   },
   {
@@ -376,7 +376,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 28,
    "bloque": "Insertar"
   },
   {
@@ -387,7 +387,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 29,
    "bloque": "Insertar"
   },
   {
@@ -398,7 +398,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 30,
    "bloque": "Insertar"
   },
   {
@@ -409,7 +409,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 31,
    "bloque": "Insertar"
   },
   {
@@ -420,7 +420,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 32,
    "bloque": "Bloque 1 – Lo básico"
   },
   {
@@ -431,7 +431,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 33,
    "bloque": "Formato"
   },
   {
@@ -442,7 +442,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 34,
    "bloque": "Formato"
   },
   {
@@ -453,7 +453,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 35,
    "bloque": "Formato"
   },
   {
@@ -464,7 +464,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 36,
    "bloque": "Formato"
   },
   {
@@ -475,7 +475,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 37,
    "bloque": "Formato"
   },
   {
@@ -486,7 +486,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 38,
    "bloque": "Formato"
   },
   {
@@ -497,7 +497,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 39,
    "bloque": "Formato"
   },
   {
@@ -508,7 +508,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 40,
    "bloque": "Formato"
   },
   {
@@ -519,7 +519,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 41,
    "bloque": "Herramientas"
   },
   {
@@ -530,7 +530,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 42,
    "bloque": "Bloque 1 – Lo básico"
   },
   {
@@ -541,7 +541,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 43,
    "bloque": "Herramientas"
   },
   {
@@ -552,7 +552,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 44,
    "bloque": "Herramientas"
   },
   {
@@ -563,7 +563,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 45,
    "bloque": "Herramientas"
   },
   {
@@ -574,7 +574,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 46,
    "bloque": "Herramientas"
   },
   {
@@ -585,7 +585,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 47,
    "bloque": "Herramientas"
   },
   {
@@ -596,7 +596,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 48,
    "bloque": "Herramientas"
   },
   {
@@ -607,7 +607,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 49,
    "bloque": "Gemini"
   },
   {
@@ -618,7 +618,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 50,
    "bloque": "Gemini"
   },
   {
@@ -629,7 +629,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 51,
    "bloque": "Extensiones"
   },
   {
@@ -640,7 +640,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 52,
    "bloque": "Extensiones"
   },
   {
@@ -651,7 +651,7 @@
    "fecha": null,
    "youtube_id": null,
    "post": null,
-   "issue": null,
+   "issue": 53,
    "bloque": "Ayuda"
   }
  ]

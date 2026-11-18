@@ -84,9 +84,10 @@ def row(x,d='../'):
     p=pmap.get(x['n']);t=e(x['titulo'])
     if p and x['estado'] in('publicado','programado'): t=f'<a href="{d}blog/{p["slug"]}.html">{e(x.get("titulo_video") or x["titulo"])}</a><br><span class="soon">{fmt(x["fecha"])}</span>'
     else: t+=' <span class="soon">· próximamente</span>'
+    if x.get('issue'): t+=f' <a class="soon" href="{REPO}/issues/{x["issue"]}" rel="noopener">issue #{x["issue"]}</a>'
     return f'<li><span class="n">{x["n"]:02d}</span><span>{t}</span>{badge(x["estado"],x.get("fecha"))}</li>'
 b1=C['bloque1'];bl=[next(x for x in L if x['n']==n) for n in b1['lecciones']]
-sec=f'''<section class="menu" id="bloque-1"><h2>{e(b1["nombre"])} <small>{len(bl)} Shorts + 1 video largo</small></h2><p class="date">Primer recorrido: lo mínimo para usar Docs. Cada Short se enlaza después al video largo del bloque.</p><ul class="les">{"".join(row(x) for x in bl)}<li><span class="n">▶</span><span>{e(b1["largo"]["titulo"])} <span class="soon">· video largo · próximamente</span></span>{badge(b1["largo"]["estado"])}</li></ul></section>'''
+sec=f'''<section class="menu" id="bloque-1"><h2>{e(b1["nombre"])} <small>{len(bl)} Shorts + 1 video largo</small></h2><p class="date">Primer recorrido: lo mínimo para usar Docs. Cada Short se enlaza después al video largo del bloque.</p><ul class="les">{"".join(row(x) for x in bl)}<li><span class="n">▶</span><span>{e(b1["largo"]["titulo"])} <span class="soon">· video largo · próximamente</span> <a class="soon" href="{REPO}/issues/{b1["largo"]["issue"]}" rel="noopener">issue #{b1["largo"]["issue"]}</a></span>{badge(b1["largo"]["estado"])}</li></ul></section>'''
 for m in C['menus']:
     ls=[x for x in L if x['menu']==m['menu']]
     sec+=f'''<section class="menu" id="{m["menu"].lower()}"><h2>Menú {e(m["menu"])} <small>{len(ls)} tutoriales · {m["opciones"]} opciones reales</small></h2><ul class="les">{"".join(row(x) for x in ls)}</ul></section>'''
