@@ -27,3 +27,4 @@ tools/build.py       genera index, curso/, blog/, calendario/, gestion/, 404, si
 3. En `data/curso.json`, en la lección: `estado` (`programado`/`publicado`/`en-produccion`/`pendiente`), `fecha`, `youtube_id`, `post`, `titulo_video`. Si suma opciones de menú, subí `conteo_real.cubiertas`.
 4. En `data/videos.json` agregá la fila del video.
 5. `python3 tools/build.py`, commit y push. Cerrá o actualizá el issue.
+6. Cuando GitHub Pages termine el deploy: `python3 tools/indexnow.py <URL del post> <URL del curso>` (sin argumentos envía todo el sitemap a IndexNow).
