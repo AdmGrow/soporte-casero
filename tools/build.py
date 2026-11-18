@@ -22,7 +22,7 @@ def page(path,title,desc,body,ld=None,img=None,typ='website'):
     ogi=B+(img or 'img/og.png')
     nav=''.join(f'<a href="{d}{h}"{" aria-current=page" if path.startswith(h.split("/")[0]+"/") else ""}>{t}</a>' for h,t in NAV)
     full=title if title.endswith(SITE) else f'{title} · {SITE}'
-    return f'''<!doctype html><html lang="es-AR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+    return f'''<!doctype html><html lang="es-AR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="google-site-verification" content="DZyE-QFIWeNXQ9TOPrV2uCMqNhyqMSfGzKceuzIN4ek">
 <title>{e(full)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{url}"><meta name="robots" content="index,follow">
 <meta property="og:type" content="{typ}"><meta property="og:site_name" content="{SITE}"><meta property="og:locale" content="es_AR"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{ogi}"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="{d}img/logo.svg" type="image/svg+xml"><meta name="theme-color" content="#0b6bcb">
