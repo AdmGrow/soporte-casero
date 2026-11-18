@@ -28,7 +28,8 @@
   "publicado": "Publicado",
   "programado": "Programado",
   "en-produccion": "En producción",
-  "pendiente": "Pendiente"
+  "pendiente": "Pendiente",
+  "planificado": "Planificado"
  },
  "menus": [
   {

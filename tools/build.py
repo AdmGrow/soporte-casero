@@ -103,11 +103,20 @@ W('curso/index.html',page('curso/index.html','Curso de Google Documentos gratis,
 # ---------- calendario ----------
 vs=sorted(V['videos'],key=lambda v:v['fecha'])
 def iss(n):return f'<a href="{REPO}/issues/{n}" rel="noopener">#{n}</a>' if n else '—'
-rows=''.join(f'''<tr><td>{k+1}</td><td><time datetime="{v["fecha"]}">{fmt(v["fecha"])}</time></td><td>{e(v["titulo"])}<br><span class="soon">{v["tipo"]}</span></td><td><a href="https://youtube.com/{"shorts/" if v["tipo"]=="short" else "watch?v="}{v["youtube_id"]}" rel="noopener">{v["youtube_id"]}</a></td><td>{e(v["playlist"])}</td><td>{badge(v["estado"],v["fecha"])}</td><td>{f'<a href="../{v["post"]}">Post</a>' if v.get("post") else "—"}</td><td>{iss(v.get("issue"))}</td></tr>''' for k,v in enumerate(vs))
-cal=f'''<p class="kicker">Proyecto de publicación</p><h1>Calendario de YouTube</h1><p class="lead">Todos los videos del canal en orden de publicación, con fecha y hora de Argentina, playlist, estado, post del sitio e issue de seguimiento.</p>
-<div class="tbl-wrap"><table><thead><tr><th>#</th><th>Fecha y hora</th><th>Título</th><th>YouTube</th><th>Playlist</th><th>Estado</th><th>Post</th><th>Issue</th></tr></thead><tbody>{rows}</tbody></table></div>
-<p class="src">Se publica solo con el OK del dueño del canal. Fuente: <a href="{REPO}/blob/main/data/videos.json" rel="noopener">data/videos.json</a>.</p>'''
-W('calendario/index.html',page('calendario/index.html','Calendario de publicación en YouTube','Orden de publicación de los videos del canal Soporte casero en YouTube: fecha y hora, título, playlist, estado y lección del sitio.',cal))
+def ytl(v):
+    if not v.get('youtube_id') or v['estado']=='planificado': return '<span class="soon">—</span>'
+    return f'<a href="https://youtube.com/{"shorts/" if v["tipo"]=="short" else "watch?v="}{v["youtube_id"]}" rel="noopener">{v["youtube_id"]}</a>'
+DIAS=['lun','mar','mié','jue','vie','sáb','dom']
+def dia(f):return DIAS[datetime.date(int(f[:4]),int(f[5:7]),int(f[8:10])).weekday()]
+rows=''.join(f'''<tr class="r-{v["estado"]}{" r-largo" if v["tipo"]=="largo" else ""}"><td>{k+1}</td><td><time datetime="{v["fecha"]}">{dia(v["fecha"])} {fmt(v["fecha"],False)[:5]} · {v["fecha"][11:16]}</time></td><td>{e(v["titulo"])}<br><span class="soon">{"Short" if v["tipo"]=="short" else "Video largo"}{f" · lección {v['leccion']}" if v.get("leccion") else ""}{f" · menú {v['menu']}" if v.get("menu") else ""}</span></td><td>{ytl(v)}</td><td>{e(v["playlist"])}</td><td>{badge(v["estado"],v["fecha"])}</td><td>{f'<a href="../{v["post"]}">Post</a>' if v.get("post") else "—"}</td><td>{iss(v.get("issue"))}</td></tr>''' for k,v in enumerate(vs))
+cnt={s:sum(v['estado']==s for v in vs) for s in ('publicado','programado','planificado')}
+nl=sum(v['tipo']=='largo' for v in vs)
+cal=f'''<p class="kicker">Proyecto de publicación · serie Google Docs</p><h1>Calendario de YouTube</h1><p class="lead">Todos los videos de la serie en orden de publicación: 2 por día, a las 09:00 y a las 17:00 (hora Argentina).</p>
+<div class="box"><p><b>Importante:</b> las fechas «planificado» son tentativas. Cada video se publica solo después de que el dueño del canal lo aprueba; si se mueve uno, se corren los siguientes.</p></div>
+<p><b>{len(vs)} videos</b> ({len(vs)-nl} Shorts y {nl} videos largos), del {fmt(vs[0]["fecha"],False)} al {fmt(vs[-1]["fecha"],False)}: {badge("publicado")} {cnt["publicado"]} · {badge("programado")} {cnt["programado"]} · {badge("planificado")} {cnt["planificado"]}</p>
+<div class="tbl-wrap"><table><thead><tr><th>#</th><th>Fecha y hora (ART)</th><th>Título</th><th>YouTube</th><th>Playlist</th><th>Estado</th><th>Post</th><th>Issue</th></tr></thead><tbody>{rows}</tbody></table></div>
+<p class="src">Fuente: <a href="{REPO}/blob/main/data/videos.json" rel="noopener">data/videos.json</a> · seguimiento en <a href="{REPO}/milestones" rel="noopener">milestones de GitHub</a>.</p>'''
+W('calendario/index.html',page('calendario/index.html','Calendario de publicación en YouTube','Calendario de publicación de la serie de Google Docs de Soporte casero en YouTube: 2 videos por día, Shorts y videos largos, con estado y lección del sitio.',cal))
 # ---------- gestión ----------
 ges=f'''<p class="kicker">Cómo trabajamos</p><h1>Gestión del proyecto</h1>
 <p class="lead">El proyecto se gestiona en GitHub: cada tutorial es un issue con su checklist y cada bloque o menú es un milestone.</p>

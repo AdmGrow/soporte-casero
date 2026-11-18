@@ -42,3 +42,5 @@ kbd{font-family:var(--mono);border:1px solid var(--line);border-bottom-width:2px
 .pager{display:flex;justify-content:space-between;gap:1rem;margin:2rem 0;flex-wrap:wrap}
 footer{max-width:1060px;margin:2rem auto;padding:1rem 1.2rem;color:var(--mut);font-size:.9rem;border-top:1px solid var(--line)}
 @media (max-width:560px){.les li{grid-template-columns:2rem 1fr}.les li .badge{grid-column:2}}
+.planificado{background:transparent;color:var(--mut);border:1.5px dashed var(--mut)}
+tr.r-planificado td{color:var(--mut)}tr.r-planificado{background:repeating-linear-gradient(135deg,transparent 0 10px,color-mix(in srgb,var(--line) 35%,transparent) 10px 20px)}tr.r-largo td:nth-child(3){font-weight:700}tr.r-programado td,tr.r-publicado td{font-weight:600}
