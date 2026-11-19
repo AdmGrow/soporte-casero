@@ -1,13 +1,13 @@
 {
   "curso": "Curso de Google Documentos",
-  "actualizado": "2026-11-18",
+  "actualizado": "2026-11-19",
   "conteo_real": {
     "fecha": "2026-11-18",
     "menus": 9,
     "opciones_nivel1": 93,
     "subopciones": 123,
     "total": 216,
-    "cubiertas": 7
+    "cubiertas": 8
   },
   "bloque1": {
     "nombre": "Bloque 1 – Lo básico",
@@ -528,12 +528,13 @@
       "n": 42,
       "menu": "Herramientas",
       "titulo": "Contar palabras",
-      "estado": "pendiente",
-      "fecha": null,
-      "youtube_id": null,
-      "post": null,
+      "estado": "programado",
+      "fecha": "2026-11-20T17:00:00-03:00",
+      "youtube_id": "7RD-avQ7HBo",
+      "post": "blog/contar-palabras-google-docs.html",
       "issue": 42,
-      "bloque": "Bloque 1 – Lo básico"
+      "bloque": "Bloque 1 – Lo básico",
+      "titulo_video": "Cómo contar las palabras de un Google Doc en 3 pasos"
     },
     {
       "n": 43,

@@ -52,12 +52,12 @@
       "fecha": "2026-11-20T17:00:00-03:00",
       "tipo": "short",
       "titulo": "Contar palabras",
-      "youtube_id": null,
+      "youtube_id": "7RD-avQ7HBo",
       "playlist": "Shorts – Google Docs",
-      "estado": "planificado",
+      "estado": "programado",
       "leccion": 42,
       "menu": "Herramientas",
-      "post": null,
+      "post": "blog/contar-palabras-google-docs.html",
       "issue": 42
     },
     {
