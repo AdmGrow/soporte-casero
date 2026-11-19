@@ -1,659 +1,660 @@
 {
- "curso": "Curso de Google Documentos",
- "actualizado": "2026-11-18",
- "conteo_real": {
-  "fecha": "2026-11-18",
-  "menus": 9,
-  "opciones_nivel1": 93,
-  "subopciones": 123,
-  "total": 216,
-  "cubiertas": 5
- },
- "bloque1": {
-  "nombre": "Bloque 1 – Lo básico",
-  "lecciones": [
-   1,
-   32,
-   12,
-   6,
-   42
+  "curso": "Curso de Google Documentos",
+  "actualizado": "2026-11-18",
+  "conteo_real": {
+    "fecha": "2026-11-18",
+    "menus": 9,
+    "opciones_nivel1": 93,
+    "subopciones": 123,
+    "total": 216,
+    "cubiertas": 7
+  },
+  "bloque1": {
+    "nombre": "Bloque 1 – Lo básico",
+    "lecciones": [
+      1,
+      32,
+      12,
+      6,
+      42
+    ],
+    "largo": {
+      "titulo": "Google Docs para principiantes: lo básico paso a paso",
+      "estado": "pendiente",
+      "issue": 54
+    }
+  },
+  "estados": {
+    "publicado": "Publicado",
+    "programado": "Programado",
+    "en-produccion": "En producción",
+    "pendiente": "Pendiente",
+    "planificado": "Planificado"
+  },
+  "menus": [
+    {
+      "menu": "Archivo",
+      "opciones": 36
+    },
+    {
+      "menu": "Editar",
+      "opciones": 9
+    },
+    {
+      "menu": "Ver",
+      "opciones": 15
+    },
+    {
+      "menu": "Insertar",
+      "opciones": 57
+    },
+    {
+      "menu": "Formato",
+      "opciones": 59
+    },
+    {
+      "menu": "Herramientas",
+      "opciones": 19
+    },
+    {
+      "menu": "Gemini",
+      "opciones": 5
+    },
+    {
+      "menu": "Extensiones",
+      "opciones": 8
+    },
+    {
+      "menu": "Ayuda",
+      "opciones": 8
+    }
   ],
-  "largo": {
-   "titulo": "Google Docs para principiantes: lo básico paso a paso",
-   "estado": "pendiente",
-   "issue": 54
-  }
- },
- "estados": {
-  "publicado": "Publicado",
-  "programado": "Programado",
-  "en-produccion": "En producción",
-  "pendiente": "Pendiente",
-  "planificado": "Planificado"
- },
- "menus": [
-  {
-   "menu": "Archivo",
-   "opciones": 36
-  },
-  {
-   "menu": "Editar",
-   "opciones": 9
-  },
-  {
-   "menu": "Ver",
-   "opciones": 15
-  },
-  {
-   "menu": "Insertar",
-   "opciones": 57
-  },
-  {
-   "menu": "Formato",
-   "opciones": 59
-  },
-  {
-   "menu": "Herramientas",
-   "opciones": 19
-  },
-  {
-   "menu": "Gemini",
-   "opciones": 5
-  },
-  {
-   "menu": "Extensiones",
-   "opciones": 8
-  },
-  {
-   "menu": "Ayuda",
-   "opciones": 8
-  }
- ],
- "lecciones": [
-  {
-   "n": 1,
-   "menu": "Archivo",
-   "titulo": "Crear un documento (Nuevo > Documento, Cambiar nombre)",
-   "estado": "programado",
-   "fecha": "2026-11-18T17:00:00-03:00",
-   "youtube_id": "uH-alYmBCdM",
-   "post": "blog/crear-documento-google-docs.html",
-   "issue": 1,
-   "bloque": "Bloque 1 – Lo básico",
-   "titulo_video": "Cómo crear un documento en Google Docs en 3 pasos (gratis)"
-  },
-  {
-   "n": 2,
-   "menu": "Archivo",
-   "titulo": "Plantillas y \"Ayúdame a crear\"",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 2,
-   "bloque": "Archivo"
-  },
-  {
-   "n": 3,
-   "menu": "Archivo",
-   "titulo": "Hacer una copia, mover, acceso directo y papelera",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 3,
-   "bloque": "Archivo"
-  },
-  {
-   "n": 4,
-   "menu": "Archivo",
-   "titulo": "Compartir con otros y publicar en la web",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 4,
-   "bloque": "Archivo"
-  },
-  {
-   "n": 5,
-   "menu": "Archivo",
-   "titulo": "Enviar el documento por correo",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 5,
-   "bloque": "Archivo"
-  },
-  {
-   "n": 6,
-   "menu": "Archivo",
-   "titulo": "Descargar en PDF, Word y otros formatos",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 6,
-   "bloque": "Bloque 1 – Lo básico"
-  },
-  {
-   "n": 7,
-   "menu": "Archivo",
-   "titulo": "Historial de versiones",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 7,
-   "bloque": "Archivo"
-  },
-  {
-   "n": 8,
-   "menu": "Archivo",
-   "titulo": "Usar Docs sin conexión",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 8,
-   "bloque": "Archivo"
-  },
-  {
-   "n": 9,
-   "menu": "Archivo",
-   "titulo": "Configuración de página e imprimir",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 9,
-   "bloque": "Archivo"
-  },
-  {
-   "n": 10,
-   "menu": "Archivo",
-   "titulo": "Grabar video dentro del documento",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 10,
-   "bloque": "Archivo"
-  },
-  {
-   "n": 11,
-   "menu": "Editar",
-   "titulo": "Deshacer, rehacer y pegar sin formato",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 11,
-   "bloque": "Editar"
-  },
-  {
-   "n": 12,
-   "menu": "Editar",
-   "titulo": "Buscar y reemplazar",
-   "estado": "programado",
-   "fecha": "2026-11-19T09:00:00-03:00",
-   "youtube_id": "S98nLIFmK3w",
-   "post": "blog/buscar-y-reemplazar-google-docs.html",
-   "issue": 12,
-   "bloque": "Bloque 1 – Lo básico",
-   "titulo_video": "Cómo buscar y reemplazar una palabra en Google Docs (3 pasos)"
-  },
-  {
-   "n": 13,
-   "menu": "Ver",
-   "titulo": "Modos: edición, sugerencias y visualización",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 13,
-   "bloque": "Ver"
-  },
-  {
-   "n": 14,
-   "menu": "Ver",
-   "titulo": "Comentarios: insertar, responder, ocultar",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 14,
-   "bloque": "Ver"
-  },
-  {
-   "n": 15,
-   "menu": "Ver",
-   "titulo": "Pestañas y esquema del documento",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 15,
-   "bloque": "Ver"
-  },
-  {
-   "n": 16,
-   "menu": "Ver",
-   "titulo": "Regla, diseño de impresión, caracteres ocultos, pantalla completa",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 16,
-   "bloque": "Ver"
-  },
-  {
-   "n": 17,
-   "menu": "Insertar",
-   "titulo": "Imágenes (subir, web, Drive, por URL, generar)",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 17,
-   "bloque": "Insertar"
-  },
-  {
-   "n": 18,
-   "menu": "Insertar",
-   "titulo": "Tablas",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 18,
-   "bloque": "Insertar"
-  },
-  {
-   "n": 19,
-   "menu": "Insertar",
-   "titulo": "Elementos de creación (notas de reunión, bloque de código)",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 19,
-   "bloque": "Insertar"
-  },
-  {
-   "n": 20,
-   "menu": "Insertar",
-   "titulo": "Chips inteligentes (fecha, personas, archivo, lugar)",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 20,
-   "bloque": "Insertar"
-  },
-  {
-   "n": 21,
-   "menu": "Insertar",
-   "titulo": "Menú desplegable y chips de marcador",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 21,
-   "bloque": "Insertar"
-  },
-  {
-   "n": 22,
-   "menu": "Insertar",
-   "titulo": "Enlaces y marcadores",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 22,
-   "bloque": "Insertar"
-  },
-  {
-   "n": 23,
-   "menu": "Insertar",
-   "titulo": "Dibujos",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 23,
-   "bloque": "Insertar"
-  },
-  {
-   "n": 24,
-   "menu": "Insertar",
-   "titulo": "Gráficos",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 24,
-   "bloque": "Insertar"
-  },
-  {
-   "n": 25,
-   "menu": "Insertar",
-   "titulo": "Emoji y caracteres especiales",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 25,
-   "bloque": "Insertar"
-  },
-  {
-   "n": 26,
-   "menu": "Insertar",
-   "titulo": "Ecuaciones",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 26,
-   "bloque": "Insertar"
-  },
-  {
-   "n": 27,
-   "menu": "Insertar",
-   "titulo": "Saltos de página y de sección",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 27,
-   "bloque": "Insertar"
-  },
-  {
-   "n": 28,
-   "menu": "Insertar",
-   "titulo": "Índice automático",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 28,
-   "bloque": "Insertar"
-  },
-  {
-   "n": 29,
-   "menu": "Insertar",
-   "titulo": "Encabezado, pie y números de página",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 29,
-   "bloque": "Insertar"
-  },
-  {
-   "n": 30,
-   "menu": "Insertar",
-   "titulo": "Marca de agua",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 30,
-   "bloque": "Insertar"
-  },
-  {
-   "n": 31,
-   "menu": "Insertar",
-   "titulo": "Notas al pie",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 31,
-   "bloque": "Insertar"
-  },
-  {
-   "n": 32,
-   "menu": "Formato",
-   "titulo": "Negrita, tamaño y color de letra",
-   "estado": "programado",
-   "fecha": "2026-11-19T17:00:00-03:00",
-   "youtube_id": "U5waIItrVXM",
-   "post": "blog/formato-de-texto-google-docs.html",
-   "issue": 32,
-   "bloque": "Bloque 1 – Lo básico"
-  },
-  {
-   "n": 33,
-   "menu": "Formato",
-   "titulo": "Tachado, superíndice, versalita y mayúsculas",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 33,
-   "bloque": "Formato"
-  },
-  {
-   "n": 34,
-   "menu": "Formato",
-   "titulo": "Estilos de párrafo y títulos",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 34,
-   "bloque": "Formato"
-  },
-  {
-   "n": 35,
-   "menu": "Formato",
-   "titulo": "Alinear y sangría",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 35,
-   "bloque": "Formato"
-  },
-  {
-   "n": 36,
-   "menu": "Formato",
-   "titulo": "Interlineado y espacio entre párrafos",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 36,
-   "bloque": "Formato"
-  },
-  {
-   "n": 37,
-   "menu": "Formato",
-   "titulo": "Columnas",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 37,
-   "bloque": "Formato"
-  },
-  {
-   "n": 38,
-   "menu": "Formato",
-   "titulo": "Viñetas, numeración y lista de comprobación",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 38,
-   "bloque": "Formato"
-  },
-  {
-   "n": 39,
-   "menu": "Formato",
-   "titulo": "Orientación horizontal y formato sin páginas",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 39,
-   "bloque": "Formato"
-  },
-  {
-   "n": 40,
-   "menu": "Formato",
-   "titulo": "Borrar formato",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 40,
-   "bloque": "Formato"
-  },
-  {
-   "n": 41,
-   "menu": "Herramientas",
-   "titulo": "Ortografía y gramática",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 41,
-   "bloque": "Herramientas"
-  },
-  {
-   "n": 42,
-   "menu": "Herramientas",
-   "titulo": "Contar palabras",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 42,
-   "bloque": "Bloque 1 – Lo básico"
-  },
-  {
-   "n": 43,
-   "menu": "Herramientas",
-   "titulo": "Cambios sugeridos y comparar documentos",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 43,
-   "bloque": "Herramientas"
-  },
-  {
-   "n": 44,
-   "menu": "Herramientas",
-   "titulo": "Citas y bibliografía",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 44,
-   "bloque": "Herramientas"
-  },
-  {
-   "n": 45,
-   "menu": "Herramientas",
-   "titulo": "Números de línea",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 45,
-   "bloque": "Herramientas"
-  },
-  {
-   "n": 46,
-   "menu": "Herramientas",
-   "titulo": "Diccionario y traducir documento",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 46,
-   "bloque": "Herramientas"
-  },
-  {
-   "n": 47,
-   "menu": "Herramientas",
-   "titulo": "Escribir por voz",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 47,
-   "bloque": "Herramientas"
-  },
-  {
-   "n": 48,
-   "menu": "Herramientas",
-   "titulo": "Preferencias y accesibilidad",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 48,
-   "bloque": "Herramientas"
-  },
-  {
-   "n": 49,
-   "menu": "Gemini",
-   "titulo": "Crear un documento con Gemini",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 49,
-   "bloque": "Gemini"
-  },
-  {
-   "n": 50,
-   "menu": "Gemini",
-   "titulo": "Mejorar texto y barra de Gemini",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 50,
-   "bloque": "Gemini"
-  },
-  {
-   "n": 51,
-   "menu": "Extensiones",
-   "titulo": "Complementos",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 51,
-   "bloque": "Extensiones"
-  },
-  {
-   "n": 52,
-   "menu": "Extensiones",
-   "titulo": "Apps Script básico",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 52,
-   "bloque": "Extensiones"
-  },
-  {
-   "n": 53,
-   "menu": "Ayuda",
-   "titulo": "Buscar en los menús y atajos de teclado",
-   "estado": "pendiente",
-   "fecha": null,
-   "youtube_id": null,
-   "post": null,
-   "issue": 53,
-   "bloque": "Ayuda"
-  }
- ]
+  "lecciones": [
+    {
+      "n": 1,
+      "menu": "Archivo",
+      "titulo": "Crear un documento (Nuevo > Documento, Cambiar nombre)",
+      "estado": "programado",
+      "fecha": "2026-11-18T17:00:00-03:00",
+      "youtube_id": "uH-alYmBCdM",
+      "post": "blog/crear-documento-google-docs.html",
+      "issue": 1,
+      "bloque": "Bloque 1 – Lo básico",
+      "titulo_video": "Cómo crear un documento en Google Docs en 3 pasos (gratis)"
+    },
+    {
+      "n": 2,
+      "menu": "Archivo",
+      "titulo": "Plantillas y \"Ayúdame a crear\"",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 2,
+      "bloque": "Archivo"
+    },
+    {
+      "n": 3,
+      "menu": "Archivo",
+      "titulo": "Hacer una copia, mover, acceso directo y papelera",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 3,
+      "bloque": "Archivo"
+    },
+    {
+      "n": 4,
+      "menu": "Archivo",
+      "titulo": "Compartir con otros y publicar en la web",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 4,
+      "bloque": "Archivo"
+    },
+    {
+      "n": 5,
+      "menu": "Archivo",
+      "titulo": "Enviar el documento por correo",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 5,
+      "bloque": "Archivo"
+    },
+    {
+      "n": 6,
+      "menu": "Archivo",
+      "titulo": "Descargar en PDF, Word y otros formatos",
+      "estado": "programado",
+      "fecha": "2026-11-20T09:00:00-03:00",
+      "youtube_id": "sqiomPirlEo",
+      "post": "blog/descargar-google-doc-en-pdf.html",
+      "issue": 6,
+      "bloque": "Bloque 1 – Lo básico",
+      "titulo_video": "Cómo descargar un Google Doc en PDF en 3 pasos"
+    },
+    {
+      "n": 7,
+      "menu": "Archivo",
+      "titulo": "Historial de versiones",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 7,
+      "bloque": "Archivo"
+    },
+    {
+      "n": 8,
+      "menu": "Archivo",
+      "titulo": "Usar Docs sin conexión",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 8,
+      "bloque": "Archivo"
+    },
+    {
+      "n": 9,
+      "menu": "Archivo",
+      "titulo": "Configuración de página e imprimir",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 9,
+      "bloque": "Archivo"
+    },
+    {
+      "n": 10,
+      "menu": "Archivo",
+      "titulo": "Grabar video dentro del documento",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 10,
+      "bloque": "Archivo"
+    },
+    {
+      "n": 11,
+      "menu": "Editar",
+      "titulo": "Deshacer, rehacer y pegar sin formato",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 11,
+      "bloque": "Editar"
+    },
+    {
+      "n": 12,
+      "menu": "Editar",
+      "titulo": "Buscar y reemplazar",
+      "estado": "programado",
+      "fecha": "2026-11-19T09:00:00-03:00",
+      "youtube_id": "S98nLIFmK3w",
+      "post": "blog/buscar-y-reemplazar-google-docs.html",
+      "issue": 12,
+      "bloque": "Bloque 1 – Lo básico",
+      "titulo_video": "Cómo buscar y reemplazar una palabra en Google Docs (3 pasos)"
+    },
+    {
+      "n": 13,
+      "menu": "Ver",
+      "titulo": "Modos: edición, sugerencias y visualización",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 13,
+      "bloque": "Ver"
+    },
+    {
+      "n": 14,
+      "menu": "Ver",
+      "titulo": "Comentarios: insertar, responder, ocultar",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 14,
+      "bloque": "Ver"
+    },
+    {
+      "n": 15,
+      "menu": "Ver",
+      "titulo": "Pestañas y esquema del documento",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 15,
+      "bloque": "Ver"
+    },
+    {
+      "n": 16,
+      "menu": "Ver",
+      "titulo": "Regla, diseño de impresión, caracteres ocultos, pantalla completa",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 16,
+      "bloque": "Ver"
+    },
+    {
+      "n": 17,
+      "menu": "Insertar",
+      "titulo": "Imágenes (subir, web, Drive, por URL, generar)",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 17,
+      "bloque": "Insertar"
+    },
+    {
+      "n": 18,
+      "menu": "Insertar",
+      "titulo": "Tablas",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 18,
+      "bloque": "Insertar"
+    },
+    {
+      "n": 19,
+      "menu": "Insertar",
+      "titulo": "Elementos de creación (notas de reunión, bloque de código)",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 19,
+      "bloque": "Insertar"
+    },
+    {
+      "n": 20,
+      "menu": "Insertar",
+      "titulo": "Chips inteligentes (fecha, personas, archivo, lugar)",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 20,
+      "bloque": "Insertar"
+    },
+    {
+      "n": 21,
+      "menu": "Insertar",
+      "titulo": "Menú desplegable y chips de marcador",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 21,
+      "bloque": "Insertar"
+    },
+    {
+      "n": 22,
+      "menu": "Insertar",
+      "titulo": "Enlaces y marcadores",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 22,
+      "bloque": "Insertar"
+    },
+    {
+      "n": 23,
+      "menu": "Insertar",
+      "titulo": "Dibujos",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 23,
+      "bloque": "Insertar"
+    },
+    {
+      "n": 24,
+      "menu": "Insertar",
+      "titulo": "Gráficos",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 24,
+      "bloque": "Insertar"
+    },
+    {
+      "n": 25,
+      "menu": "Insertar",
+      "titulo": "Emoji y caracteres especiales",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 25,
+      "bloque": "Insertar"
+    },
+    {
+      "n": 26,
+      "menu": "Insertar",
+      "titulo": "Ecuaciones",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 26,
+      "bloque": "Insertar"
+    },
+    {
+      "n": 27,
+      "menu": "Insertar",
+      "titulo": "Saltos de página y de sección",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 27,
+      "bloque": "Insertar"
+    },
+    {
+      "n": 28,
+      "menu": "Insertar",
+      "titulo": "Índice automático",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 28,
+      "bloque": "Insertar"
+    },
+    {
+      "n": 29,
+      "menu": "Insertar",
+      "titulo": "Encabezado, pie y números de página",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 29,
+      "bloque": "Insertar"
+    },
+    {
+      "n": 30,
+      "menu": "Insertar",
+      "titulo": "Marca de agua",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 30,
+      "bloque": "Insertar"
+    },
+    {
+      "n": 31,
+      "menu": "Insertar",
+      "titulo": "Notas al pie",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 31,
+      "bloque": "Insertar"
+    },
+    {
+      "n": 32,
+      "menu": "Formato",
+      "titulo": "Negrita, tamaño y color de letra",
+      "estado": "programado",
+      "fecha": "2026-11-19T17:00:00-03:00",
+      "youtube_id": "U5waIItrVXM",
+      "post": "blog/formato-de-texto-google-docs.html",
+      "issue": 32,
+      "bloque": "Bloque 1 – Lo básico"
+    },
+    {
+      "n": 33,
+      "menu": "Formato",
+      "titulo": "Tachado, superíndice, versalita y mayúsculas",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 33,
+      "bloque": "Formato"
+    },
+    {
+      "n": 34,
+      "menu": "Formato",
+      "titulo": "Estilos de párrafo y títulos",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 34,
+      "bloque": "Formato"
+    },
+    {
+      "n": 35,
+      "menu": "Formato",
+      "titulo": "Alinear y sangría",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 35,
+      "bloque": "Formato"
+    },
+    {
+      "n": 36,
+      "menu": "Formato",
+      "titulo": "Interlineado y espacio entre párrafos",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 36,
+      "bloque": "Formato"
+    },
+    {
+      "n": 37,
+      "menu": "Formato",
+      "titulo": "Columnas",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 37,
+      "bloque": "Formato"
+    },
+    {
+      "n": 38,
+      "menu": "Formato",
+      "titulo": "Viñetas, numeración y lista de comprobación",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 38,
+      "bloque": "Formato"
+    },
+    {
+      "n": 39,
+      "menu": "Formato",
+      "titulo": "Orientación horizontal y formato sin páginas",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 39,
+      "bloque": "Formato"
+    },
+    {
+      "n": 40,
+      "menu": "Formato",
+      "titulo": "Borrar formato",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 40,
+      "bloque": "Formato"
+    },
+    {
+      "n": 41,
+      "menu": "Herramientas",
+      "titulo": "Ortografía y gramática",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 41,
+      "bloque": "Herramientas"
+    },
+    {
+      "n": 42,
+      "menu": "Herramientas",
+      "titulo": "Contar palabras",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 42,
+      "bloque": "Bloque 1 – Lo básico"
+    },
+    {
+      "n": 43,
+      "menu": "Herramientas",
+      "titulo": "Cambios sugeridos y comparar documentos",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 43,
+      "bloque": "Herramientas"
+    },
+    {
+      "n": 44,
+      "menu": "Herramientas",
+      "titulo": "Citas y bibliografía",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 44,
+      "bloque": "Herramientas"
+    },
+    {
+      "n": 45,
+      "menu": "Herramientas",
+      "titulo": "Números de línea",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 45,
+      "bloque": "Herramientas"
+    },
+    {
+      "n": 46,
+      "menu": "Herramientas",
+      "titulo": "Diccionario y traducir documento",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 46,
+      "bloque": "Herramientas"
+    },
+    {
+      "n": 47,
+      "menu": "Herramientas",
+      "titulo": "Escribir por voz",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 47,
+      "bloque": "Herramientas"
+    },
+    {
+      "n": 48,
+      "menu": "Herramientas",
+      "titulo": "Preferencias y accesibilidad",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 48,
+      "bloque": "Herramientas"
+    },
+    {
+      "n": 49,
+      "menu": "Gemini",
+      "titulo": "Crear un documento con Gemini",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 49,
+      "bloque": "Gemini"
+    },
+    {
+      "n": 50,
+      "menu": "Gemini",
+      "titulo": "Mejorar texto y barra de Gemini",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 50,
+      "bloque": "Gemini"
+    },
+    {
+      "n": 51,
+      "menu": "Extensiones",
+      "titulo": "Complementos",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 51,
+      "bloque": "Extensiones"
+    },
+    {
+      "n": 52,
+      "menu": "Extensiones",
+      "titulo": "Apps Script básico",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 52,
+      "bloque": "Extensiones"
+    },
+    {
+      "n": 53,
+      "menu": "Ayuda",
+      "titulo": "Buscar en los menús y atajos de teclado",
+      "estado": "pendiente",
+      "fecha": null,
+      "youtube_id": null,
+      "post": null,
+      "issue": 53,
+      "bloque": "Ayuda"
+    }
+  ]
 }
