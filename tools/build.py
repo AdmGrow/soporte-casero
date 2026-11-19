@@ -49,10 +49,16 @@ def countdown(d):
 posts=[]
 for f in sorted(glob.glob('posts/[0-9]*.html')):
     raw=open(f).read();meta,body=raw.split('\n',1);p=json.loads(meta);p['body']=body;posts.append(p)
+largos=[p for p in posts if p.get('tipo')=='largo'];posts=[p for p in posts if p.get('tipo')!='largo']
 posts.sort(key=lambda p:p['fecha'])
+b1=C['bloque1'];LG=b1['largo']
 def img(m):
     src,alt=m[1],m[2]
     return f'<figure><img src="../img/lecciones/{src}" alt="{e(alt)}" loading="lazy" width="1225" height="800"><figcaption>{e(alt)} (captura propia).</figcaption></figure>'
+def rel(les):
+    if les['n'] in b1['lecciones'] and LG.get('post') and LG.get('youtube_id'):
+        return f'<div class="box"><p><b>Video relacionado:</b> <a href="../{LG["post"]}">{e(LG["titulo"])}</a> — el video largo del {e(b1["nombre"])} (<a href="https://youtu.be/{LG["youtube_id"]}" rel="noopener">verlo en YouTube</a>).</p></div>'
+    return ''
 for i,p in enumerate(posts):
     les=next(x for x in L if x['n']==p['leccion']);path=f'blog/{p["slug"]}.html'
     body=re.sub(r'\{IMG:([^:}]+):([^}]+)\}',img,p['body'])
@@ -64,7 +70,7 @@ for i,p in enumerate(posts):
 <p class="kicker">Lección {les["n"]} de {N} · menú {e(les["menu"])}</p><h1>{e(p["titulo"])}</h1>
 <p class="date">Fecha del video: <time datetime="{p["fecha"]}">{fmt(p["fecha"])}</time> · {badge(les["estado"],p["fecha"])}</p>
 {body}
-<h2 id="video">Mirá el Short</h2>{vid}
+<h2 id="video">Mirá el Short</h2>{vid}{rel(les)}
 <p class="src"><b>Fuente oficial:</b> <a href="{p["fuente"]}" rel="noopener">Ayuda de Editores de Documentos de Google</a>. Capturas propias en un documento de ejemplo («Lista de compras»). El video usa voz generada con IA.</p>
 <p class="actions"><a class="btn" href="../curso/index.html">Ver el curso completo</a><a class="btn ghost" href="{CH}" rel="noopener">Suscribite al canal</a></p>
 <nav class="pager" aria-label="Lecciones">{prev}{nxt}</nav></article>'''
@@ -72,6 +78,20 @@ for i,p in enumerate(posts):
         "step":[{"@type":"HowToStep","position":k+1,"name":re.sub('<[^>]+>','',h),"url":f'{B}{path}#paso-{k+1}'} for k,h in enumerate(re.findall(r'<h2 id="paso-\d">(.*?)</h2>',p['body']))],
         "video":{"@type":"VideoObject","name":p['titulo'],"description":p['resumen'],"thumbnailUrl":f'https://i.ytimg.com/vi/{yt}/hqdefault.jpg',"uploadDate":p['fecha'],"contentUrl":short,"embedUrl":f'https://www.youtube.com/embed/{yt}'}},
         {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":B},{"@type":"ListItem","position":2,"name":C['curso'],"item":B+'curso/'},{"@type":"ListItem","position":3,"name":p['titulo'],"item":B+path}]}]
+    W(path,page(path,p['titulo'],p['resumen'],art,ld,p['imagen'],'article'))
+for p in largos:
+    path=f'blog/{p["slug"]}.html';body=re.sub(r'\{IMG:([^:}]+):([^}]+)\}',img,p['body']);yt=p['youtube_id']
+    vid=f'''<div class="estreno" data-fecha="{p["fecha"]}" data-yt="{yt}" data-largo="1"><p><b>Estreno del video:</b> {fmt(p["fecha"])}</p><p class="falta" aria-live="polite"></p><noscript><p><a href="https://youtu.be/{yt}">Ver el video en YouTube</a></p></noscript></div>'''
+    fu=''.join(f'<li><a href="{u}" rel="noopener">{e(u)}</a></li>' for u in p['fuentes'])
+    art=f'''<article class="post"><p class="crumbs"><a href="../curso/index.html">Curso de Google Documentos</a> › {e(b1["nombre"])}</p>
+<p class="kicker">Video largo · {e(b1["nombre"])}</p><h1>{e(p["titulo"])}</h1>
+<p class="date">Fecha del video: <time datetime="{p["fecha"]}">{fmt(p["fecha"])}</time> · {badge(LG["estado"],p["fecha"])}</p>
+<h2 id="video">Mirá el video completo</h2>{vid}
+{body}
+<p class="src"><b>Fuentes oficiales (Ayuda de Editores de Documentos de Google):</b></p><ul class="src">{fu}</ul><p class="src">Capturas propias en un documento de ejemplo («Lista de compras»). El video usa voz generada con IA.</p>
+<p class="actions"><a class="btn" href="../curso/index.html">Ver el curso completo</a><a class="btn ghost" href="{CH}" rel="noopener">Suscribite al canal</a></p></article>'''
+    ld=[{"@context":"https://schema.org","@type":"Article","headline":p['titulo'],"description":p['resumen'],"image":B+p['imagen'],"datePublished":p['fecha'],"dateModified":p['fecha'],"inLanguage":"es-AR","mainEntityOfPage":B+path,"author":ORG,"publisher":ORG,"keywords":', '.join(p['etiquetas']),"isPartOf":{"@type":"Course","name":C['curso'],"url":B+'curso/'},
+        "video":{"@type":"VideoObject","name":p['titulo'],"description":p['resumen'],"thumbnailUrl":f'https://i.ytimg.com/vi/{yt}/hqdefault.jpg',"uploadDate":p['fecha'],"duration":p.get('duracion','PT3M23S'),"contentUrl":f'https://youtu.be/{yt}',"embedUrl":f'https://www.youtube.com/embed/{yt}'}}]
     W(path,page(path,p['titulo'],p['resumen'],art,ld,p['imagen'],'article'))
 def cards(d):
     return '<div class="grid">'+''.join(f'''<article class="card"><a href="{d}blog/{p["slug"]}.html"><img src="{d}{p["imagen"]}" alt="" loading="lazy" width="1225" height="800"></a><div class="cb"><p class="kicker">Lección {p["leccion"]} · {fmt(p["fecha"],False)}</p><h3><a href="{d}blog/{p["slug"]}.html">{e(p["titulo"])}</a></h3><p class="date">{e(p["resumen"][:150])}…</p></div></article>''' for p in reversed(posts))+'</div>'
@@ -86,8 +106,8 @@ def row(x,d='../'):
     else: t+=' <span class="soon">· próximamente</span>'
     if x.get('issue'): t+=f' <a class="soon" href="{REPO}/issues/{x["issue"]}" rel="noopener">issue #{x["issue"]}</a>'
     return f'<li><span class="n">{x["n"]:02d}</span><span>{t}</span>{badge(x["estado"],x.get("fecha"))}</li>'
-b1=C['bloque1'];bl=[next(x for x in L if x['n']==n) for n in b1['lecciones']]
-sec=f'''<section class="menu" id="bloque-1"><h2>{e(b1["nombre"])} <small>{len(bl)} Shorts + 1 video largo</small></h2><p class="date">Primer recorrido: lo mínimo para usar Docs. Cada Short se enlaza después al video largo del bloque.</p><ul class="les">{"".join(row(x) for x in bl)}<li><span class="n">▶</span><span>{e(b1["largo"]["titulo"])} <span class="soon">· video largo · próximamente</span> <a class="soon" href="{REPO}/issues/{b1["largo"]["issue"]}" rel="noopener">issue #{b1["largo"]["issue"]}</a></span>{badge(b1["largo"]["estado"])}</li></ul></section>'''
+bl=[next(x for x in L if x['n']==n) for n in b1['lecciones']]
+sec=f'''<section class="menu" id="bloque-1"><h2>{e(b1["nombre"])} <small>{len(bl)} Shorts + 1 video largo</small></h2><p class="date">Primer recorrido: lo mínimo para usar Docs. Cada Short se enlaza después al video largo del bloque.</p><ul class="les">{"".join(row(x) for x in bl)}<li><span class="n">▶</span><span>{(f'<a href="../{LG["post"]}">{e(LG["titulo"])}</a><br><span class="soon">video largo · {fmt(LG.get("fecha"))}</span>' if LG.get("post") else f'{e(LG["titulo"])} <span class="soon">· video largo · próximamente</span>')} <a class="soon" href="{REPO}/issues/{b1["largo"]["issue"]}" rel="noopener">issue #{b1["largo"]["issue"]}</a></span>{badge(LG["estado"],LG.get("fecha"))}</li></ul></section>'''
 for m in C['menus']:
     ls=[x for x in L if x['menu']==m['menu']]
     sec+=f'''<section class="menu" id="{m["menu"].lower()}"><h2>Menú {e(m["menu"])} <small>{len(ls)} tutoriales · {m["opciones"]} opciones reales</small></h2><ul class="les">{"".join(row(x) for x in ls)}</ul></section>'''
@@ -143,7 +163,7 @@ W('index.html',page('index.html','Soporte casero: tutoriales de Google Docs y te
 W('404.html',page('404.html','Página no encontrada','La página que buscás no existe.',f'<h1>Página no encontrada</h1><p><a href="{B}">Volver al inicio</a> · <a href="{B}curso/">Curso de Google Docs</a></p>').replace('href="style.css"',f'href="{B}style.css"').replace('src="app.js"',f'src="{B}app.js"').replace('<meta name="robots" content="index,follow">','<meta name="robots" content="noindex">'))
 # ---------- sitemap / robots ----------
 hoy=datetime.date.today().isoformat()
-urls=[('',hoy),('curso/',hoy),('blog/',hoy),('calendario/',hoy),('gestion/',hoy)]+[(f'blog/{p["slug"]}.html',p['fecha'][:10]) for p in posts]
+urls=[('',hoy),('curso/',hoy),('blog/',hoy),('calendario/',hoy),('gestion/',hoy)]+[(f'blog/{p["slug"]}.html',p['fecha'][:10]) for p in posts]+[(f'blog/{p["slug"]}.html',p['fecha'][:10]) for p in largos]
 W('sitemap.xml','<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'<url><loc>{B}{u}</loc><lastmod>{m}</lastmod></url>\n' for u,m in urls)+'</urlset>\n')
 W('robots.txt',f'User-agent: *\nAllow: /\n\nSitemap: {B}sitemap.xml\n')
 print('ok:',len(posts),'posts,',N,'lecciones, quedan',quedan)

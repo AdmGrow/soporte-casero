@@ -20,8 +20,11 @@
     ],
     "largo": {
       "titulo": "Google Docs para principiantes: lo básico paso a paso",
-      "estado": "pendiente",
-      "issue": 54
+      "estado": "programado",
+      "issue": 54,
+      "fecha": "2026-11-21T09:00:00-03:00",
+      "youtube_id": "HolS7A3S9xA",
+      "post": "blog/google-docs-para-principiantes.html"
     }
   },
   "estados": {

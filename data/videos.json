@@ -64,12 +64,12 @@
       "fecha": "2026-11-21T09:00:00-03:00",
       "tipo": "largo",
       "titulo": "Google Docs para principiantes: lo básico paso a paso",
-      "youtube_id": null,
+      "youtube_id": "HolS7A3S9xA",
       "playlist": "Google Docs paso a paso",
-      "estado": "planificado",
+      "estado": "programado",
       "leccion": null,
       "menu": "Bloque 1",
-      "post": null,
+      "post": "blog/google-docs-para-principiantes.html",
       "issue": 54
     },
     {
