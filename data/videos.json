@@ -40,12 +40,12 @@
       "fecha": "2026-11-20T09:00:00-03:00",
       "tipo": "short",
       "titulo": "Descargar en PDF, Word y otros formatos",
-      "youtube_id": null,
+      "youtube_id": "RijVHe55fi8",
       "playlist": "Shorts – Google Docs",
-      "estado": "planificado",
+      "estado": "programado",
       "leccion": 6,
       "menu": "Archivo",
-      "post": null,
+      "post": "blog/descargar-google-doc-en-pdf.html",
       "issue": 6
     },
     {
@@ -755,18 +755,6 @@
       "menu": "Ayuda",
       "post": null,
       "issue": 63
-    },
-    {
-      "fecha": "2026-11-20T09:00:00-03:00",
-      "tipo": "short",
-      "titulo": "Descargar en PDF, Word y otros formatos",
-      "youtube_id": "RijVHe55fi8",
-      "playlist": "Shorts – Google Docs",
-      "estado": "programado",
-      "leccion": 6,
-      "menu": "Archivo",
-      "post": "blog/descargar-google-doc-en-pdf.html",
-      "issue": 6
     }
   ]
 }
