@@ -169,12 +169,13 @@
       "n": 8,
       "menu": "Archivo",
       "titulo": "Usar Docs sin conexión",
-      "estado": "pendiente",
-      "fecha": null,
-      "youtube_id": null,
-      "post": null,
+      "estado": "programado",
+      "fecha": "2026-11-24T17:00:00-03:00",
+      "youtube_id": "Kzsviovxsck",
+      "post": "blog/sin-conexion-google-docs.html",
       "issue": 8,
-      "bloque": "Archivo"
+      "bloque": "Archivo",
+      "titulo_video": "Cómo usar Google Docs sin conexión a Internet"
     },
     {
       "n": 9,
