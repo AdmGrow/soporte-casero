@@ -81,11 +81,12 @@ for i,p in enumerate(posts):
     W(path,page(path,p['titulo'],p['resumen'],art,ld,p['imagen'],'article'))
 for p in largos:
     path=f'blog/{p["slug"]}.html';body=re.sub(r'\{IMG:([^:}]+):([^}]+)\}',img,p['body']);yt=p['youtube_id']
+    bloque=p.get('bloque') or b1['nombre']; est=p.get('estado') or 'programado'
     vid=f'''<div class="estreno" data-fecha="{p["fecha"]}" data-yt="{yt}" data-largo="1"><p><b>Estreno del video:</b> {fmt(p["fecha"])}</p><p class="falta" aria-live="polite"></p><noscript><p><a href="https://youtu.be/{yt}">Ver el video en YouTube</a></p></noscript></div>'''
     fu=''.join(f'<li><a href="{u}" rel="noopener">{e(u)}</a></li>' for u in p['fuentes'])
-    art=f'''<article class="post"><p class="crumbs"><a href="../curso/index.html">Curso de Google Documentos</a> › {e(b1["nombre"])}</p>
-<p class="kicker">Video largo · {e(b1["nombre"])}</p><h1>{e(p["titulo"])}</h1>
-<p class="date">Fecha del video: <time datetime="{p["fecha"]}">{fmt(p["fecha"])}</time> · {badge(LG["estado"],p["fecha"])}</p>
+    art=f'''<article class="post"><p class="crumbs"><a href="../curso/index.html">Curso de Google Documentos</a> › {e(bloque)}</p>
+<p class="kicker">Video largo · {e(bloque)}</p><h1>{e(p["titulo"])}</h1>
+<p class="date">Fecha del video: <time datetime="{p["fecha"]}">{fmt(p["fecha"])}</time> · {badge(est,p["fecha"])}</p>
 <h2 id="video">Mirá el video completo</h2>{vid}
 {body}
 <p class="src"><b>Fuentes oficiales (Ayuda de Editores de Documentos de Google):</b></p><ul class="src">{fu}</ul><p class="src">Capturas propias en un documento de ejemplo («Lista de compras»). El video usa voz generada con IA.</p>
@@ -108,9 +109,14 @@ def row(x,d='../'):
     return f'<li><span class="n">{x["n"]:02d}</span><span>{t}</span>{badge(x["estado"],x.get("fecha"))}</li>'
 bl=[next(x for x in L if x['n']==n) for n in b1['lecciones']]
 sec=f'''<section class="menu" id="bloque-1"><h2>{e(b1["nombre"])} <small>{len(bl)} Shorts + 1 video largo</small></h2><p class="date">Primer recorrido: lo mínimo para usar Docs. Cada Short se enlaza después al video largo del bloque.</p><ul class="les">{"".join(row(x) for x in bl)}<li><span class="n">▶</span><span>{(f'<a href="../{LG["post"]}">{e(LG["titulo"])}</a><br><span class="soon">video largo · {fmt(LG.get("fecha"))}</span>' if LG.get("post") else f'{e(LG["titulo"])} <span class="soon">· video largo · próximamente</span>')} <a class="soon" href="{REPO}/issues/{b1["largo"]["issue"]}" rel="noopener">issue #{b1["largo"]["issue"]}</a></span>{badge(LG["estado"],LG.get("fecha"))}</li></ul></section>'''
+def largo_row(lg):
+    if not lg: return ''
+    t=(f'<a href="../{lg["post"]}">{e(lg["titulo"])}</a><br><span class="soon">video largo · {fmt(lg.get("fecha"))}</span>' if lg.get('post') else f'{e(lg["titulo"])} <span class="soon">· video largo · próximamente</span>')
+    if lg.get('issue'): t+=f' <a class="soon" href="{REPO}/issues/{lg["issue"]}" rel="noopener">issue #{lg["issue"]}</a>'
+    return f'<li><span class="n">▶</span><span>{t}</span>{badge(lg["estado"],lg.get("fecha"))}</li>'
 for m in C['menus']:
     ls=[x for x in L if x['menu']==m['menu']]
-    sec+=f'''<section class="menu" id="{m["menu"].lower()}"><h2>Menú {e(m["menu"])} <small>{len(ls)} tutoriales · {m["opciones"]} opciones reales</small></h2><ul class="les">{"".join(row(x) for x in ls)}</ul></section>'''
+    sec+=f'''<section class="menu" id="{m["menu"].lower()}"><h2>Menú {e(m["menu"])} <small>{len(ls)} tutoriales · {m["opciones"]} opciones reales</small></h2><ul class="les">{largo_row(m.get("largo"))}{"".join(row(x) for x in ls)}</ul></section>'''
 idx=' · '.join(f'<a href="#{m["menu"].lower()}">{m["menu"]}</a>' for m in C['menus'])
 cur=f'''<p class="kicker">Curso gratis · {N} tutoriales · 9 menús</p><h1>{e(C["curso"])}, menú por menú</h1>
 <p class="lead">Un curso ordenado de Google Docs (Documentos de Google) en español: primero un Short de cada función, en 3 pasos, y después un video largo que ordena cada bloque.</p>
@@ -132,7 +138,7 @@ rows=''.join(f'''<tr class="r-{v["estado"]}{" r-largo" if v["tipo"]=="largo" els
 cnt={s:sum(v['estado']==s for v in vs) for s in ('publicado','programado','planificado')}
 nl=sum(v['tipo']=='largo' for v in vs)
 cal=f'''<p class="kicker">Proyecto de publicación · serie Google Docs</p><h1>Calendario de YouTube</h1><p class="lead">Todos los videos de la serie en orden de publicación: 2 por día, a las 09:00 y a las 17:00 (hora Argentina).</p>
-<div class="box"><p><b>Importante:</b> las fechas «planificado» son tentativas. Cada video se publica solo después de que el dueño del canal lo aprueba; si se mueve uno, se corren los siguientes.</p></div>
+<div class="box"><p><b>Importante:</b> en cada bloque se publica primero el video largo y después sus Shorts, ya enlazados al largo. Se programa directo; si un video se atrasa, se corren los siguientes. 2 por día: 09:00 y 17:00 (hora Argentina).</p></div>
 <p><b>{len(vs)} videos</b> ({len(vs)-nl} Shorts y {nl} videos largos), del {fmt(vs[0]["fecha"],False)} al {fmt(vs[-1]["fecha"],False)}: {badge("publicado")} {cnt["publicado"]} · {badge("programado")} {cnt["programado"]} · {badge("planificado")} {cnt["planificado"]}</p>
 <div class="tbl-wrap"><table><thead><tr><th>#</th><th>Fecha y hora (ART)</th><th>Título</th><th>YouTube</th><th>Playlist</th><th>Estado</th><th>Post</th><th>Issue</th></tr></thead><tbody>{rows}</tbody></table></div>
 <p class="src">Fuente: <a href="{REPO}/blob/main/data/videos.json" rel="noopener">data/videos.json</a> · seguimiento en <a href="{REPO}/milestones" rel="noopener">milestones de GitHub</a>.</p>'''

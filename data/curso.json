@@ -1,13 +1,13 @@
 {
   "curso": "Curso de Google Documentos",
-  "actualizado": "2026-11-19",
+  "actualizado": "2026-11-21",
   "conteo_real": {
     "fecha": "2026-11-18",
     "menus": 9,
     "opciones_nivel1": 93,
     "subopciones": 123,
     "total": 216,
-    "cubiertas": 8
+    "cubiertas": 41
   },
   "bloque1": {
     "nombre": "Bloque 1 – Lo básico",
@@ -37,7 +37,15 @@
   "menus": [
     {
       "menu": "Archivo",
-      "opciones": 36
+      "opciones": 36,
+      "largo": {
+        "titulo": "Google Docs: menú Archivo paso a paso (tutorial completo)",
+        "estado": "programado",
+        "issue": 55,
+        "fecha": "2026-11-21T17:00:00-03:00",
+        "youtube_id": "nhfxJjLv6j8",
+        "post": "blog/google-docs-menu-archivo.html"
+      }
     },
     {
       "menu": "Editar",
