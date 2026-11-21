@@ -97,12 +97,13 @@
       "n": 2,
       "menu": "Archivo",
       "titulo": "Plantillas y \"Ayúdame a crear\"",
-      "estado": "pendiente",
-      "fecha": null,
-      "youtube_id": null,
-      "post": null,
+      "estado": "programado",
+      "fecha": "2026-11-22T09:00:00-03:00",
+      "youtube_id": "ReXLw3LfQZc",
+      "post": "blog/plantillas-google-docs.html",
       "issue": 2,
-      "bloque": "Archivo"
+      "bloque": "Archivo",
+      "titulo_video": "Cómo usar plantillas en Google Docs (y 'Ayúdame a crear')"
     },
     {
       "n": 3,

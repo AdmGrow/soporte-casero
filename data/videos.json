@@ -87,13 +87,13 @@
     {
       "fecha": "2026-11-22T09:00:00-03:00",
       "tipo": "short",
-      "titulo": "Plantillas y \"Ayúdame a crear\"",
-      "youtube_id": null,
+      "titulo": "Cómo usar plantillas en Google Docs (y 'Ayúdame a crear')",
+      "youtube_id": "ReXLw3LfQZc",
       "playlist": "Shorts – Google Docs",
-      "estado": "planificado",
+      "estado": "programado",
       "leccion": 2,
       "menu": "Archivo",
-      "post": null,
+      "post": "blog/plantillas-google-docs.html",
       "issue": 2
     },
     {

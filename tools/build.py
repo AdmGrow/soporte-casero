@@ -58,6 +58,10 @@ def img(m):
 def rel(les):
     if les['n'] in b1['lecciones'] and LG.get('post') and LG.get('youtube_id'):
         return f'<div class="box"><p><b>Video relacionado:</b> <a href="../{LG["post"]}">{e(LG["titulo"])}</a> — el video largo del {e(b1["nombre"])} (<a href="https://youtu.be/{LG["youtube_id"]}" rel="noopener">verlo en YouTube</a>).</p></div>'
+    menu=next((m for m in C['menus'] if m['menu']==les.get('menu')), None)
+    lg=(menu or {}).get('largo') or {}
+    if lg.get('post') and lg.get('youtube_id'):
+        return f'<div class="box"><p><b>Video relacionado:</b> <a href="../{lg["post"]}">{e(lg["titulo"])}</a> — el video largo del menú {e(les["menu"])} (<a href="https://youtu.be/{lg["youtube_id"]}" rel="noopener">verlo en YouTube</a>).</p></div>'
     return ''
 for i,p in enumerate(posts):
     les=next(x for x in L if x['n']==p['leccion']);path=f'blog/{p["slug"]}.html'
