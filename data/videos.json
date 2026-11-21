@@ -99,13 +99,13 @@
     {
       "fecha": "2026-11-22T17:00:00-03:00",
       "tipo": "short",
-      "titulo": "Hacer una copia, mover, acceso directo y papelera",
-      "youtube_id": null,
+      "titulo": "Cómo hacer una copia, mover y borrar un Google Doc",
+      "youtube_id": "XqEJ0NVXf-U",
       "playlist": "Shorts – Google Docs",
-      "estado": "planificado",
+      "estado": "programado",
       "leccion": 3,
       "menu": "Archivo",
-      "post": null,
+      "post": "blog/copiar-mover-papelera-google-docs.html",
       "issue": 3
     },
     {
