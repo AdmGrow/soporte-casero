@@ -157,12 +157,13 @@
       "n": 7,
       "menu": "Archivo",
       "titulo": "Historial de versiones",
-      "estado": "pendiente",
-      "fecha": null,
-      "youtube_id": null,
-      "post": null,
+      "estado": "programado",
+      "fecha": "2026-11-24T09:00:00-03:00",
+      "youtube_id": "jGrflG4u3Os",
+      "post": "blog/historial-versiones-google-docs.html",
       "issue": 7,
-      "bloque": "Archivo"
+      "bloque": "Archivo",
+      "titulo_video": "Cómo recuperar una versión anterior en Google Docs"
     },
     {
       "n": 8,
