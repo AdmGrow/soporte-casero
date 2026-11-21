@@ -121,12 +121,13 @@
       "n": 4,
       "menu": "Archivo",
       "titulo": "Compartir con otros y publicar en la web",
-      "estado": "pendiente",
-      "fecha": null,
-      "youtube_id": null,
-      "post": null,
+      "estado": "programado",
+      "fecha": "2026-11-23T09:00:00-03:00",
+      "youtube_id": "PJQ_2iPbUA0",
+      "post": "blog/compartir-google-docs.html",
       "issue": 4,
-      "bloque": "Archivo"
+      "bloque": "Archivo",
+      "titulo_video": "Cómo compartir un Google Doc (roles y enlace)"
     },
     {
       "n": 5,

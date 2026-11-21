@@ -111,13 +111,13 @@
     {
       "fecha": "2026-11-23T09:00:00-03:00",
       "tipo": "short",
-      "titulo": "Compartir con otros y publicar en la web",
-      "youtube_id": null,
+      "titulo": "Cómo compartir un Google Doc (roles y enlace)",
+      "youtube_id": "PJQ_2iPbUA0",
       "playlist": "Shorts – Google Docs",
-      "estado": "planificado",
+      "estado": "programado",
       "leccion": 4,
       "menu": "Archivo",
-      "post": null,
+      "post": "blog/compartir-google-docs.html",
       "issue": 4
     },
     {
