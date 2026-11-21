@@ -133,12 +133,13 @@
       "n": 5,
       "menu": "Archivo",
       "titulo": "Enviar el documento por correo",
-      "estado": "pendiente",
-      "fecha": null,
-      "youtube_id": null,
-      "post": null,
+      "estado": "programado",
+      "fecha": "2026-11-23T17:00:00-03:00",
+      "youtube_id": "VbEopNQSGsg",
+      "post": "blog/correo-google-docs.html",
       "issue": 5,
-      "bloque": "Archivo"
+      "bloque": "Archivo",
+      "titulo_video": "Cómo enviar un Google Doc por correo (PDF o Word)"
     },
     {
       "n": 6,
