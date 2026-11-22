@@ -183,13 +183,13 @@
     {
       "fecha": "2026-11-26T09:00:00-03:00",
       "tipo": "largo",
-      "titulo": "Google Docs: menú Editar paso a paso",
-      "youtube_id": null,
+      "titulo": "Google Docs: menú Editar paso a paso (tutorial completo)",
+      "youtube_id": "63UBn1yIic0",
       "playlist": "Google Docs paso a paso",
-      "estado": "planificado",
+      "estado": "programado",
       "leccion": null,
       "menu": "Editar",
-      "post": null,
+      "post": "blog/google-docs-menu-editar.html",
       "issue": 56
     },
     {

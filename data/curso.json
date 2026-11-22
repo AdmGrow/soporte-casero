@@ -1,6 +1,6 @@
 {
   "curso": "Curso de Google Documentos",
-  "actualizado": "2026-11-21",
+  "actualizado": "2026-11-22",
   "conteo_real": {
     "fecha": "2026-11-18",
     "menus": 9,
@@ -49,7 +49,15 @@
     },
     {
       "menu": "Editar",
-      "opciones": 9
+      "opciones": 9,
+      "largo": {
+        "titulo": "Google Docs: menú Editar paso a paso (tutorial completo)",
+        "estado": "programado",
+        "issue": 56,
+        "fecha": "2026-11-26T09:00:00-03:00",
+        "youtube_id": "63UBn1yIic0",
+        "post": "blog/google-docs-menu-editar.html"
+      }
     },
     {
       "menu": "Ver",
