@@ -7,7 +7,7 @@
     "opciones_nivel1": 93,
     "subopciones": 123,
     "total": 216,
-    "cubiertas": 49
+    "cubiertas": 64
   },
   "bloque1": {
     "nombre": "Bloque 1 – Lo básico",
@@ -61,7 +61,15 @@
     },
     {
       "menu": "Ver",
-      "opciones": 15
+      "opciones": 15,
+      "largo": {
+        "titulo": "Google Docs: menú Ver paso a paso (tutorial completo)",
+        "estado": "programado",
+        "issue": 57,
+        "fecha": "2026-11-27T09:00:00-03:00",
+        "youtube_id": "InkwkWlSgak",
+        "post": "blog/google-docs-menu-ver.html"
+      }
     },
     {
       "menu": "Insertar",

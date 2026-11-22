@@ -207,13 +207,13 @@
     {
       "fecha": "2026-11-27T09:00:00-03:00",
       "tipo": "largo",
-      "titulo": "Google Docs: menú Ver paso a paso",
-      "youtube_id": null,
+      "titulo": "Google Docs: menú Ver paso a paso (tutorial completo)",
+      "youtube_id": "InkwkWlSgak",
       "playlist": "Google Docs paso a paso",
-      "estado": "planificado",
+      "estado": "programado",
       "leccion": null,
       "menu": "Ver",
-      "post": null,
+      "post": "blog/google-docs-menu-ver.html",
       "issue": 57
     },
     {
