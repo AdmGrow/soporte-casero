@@ -159,25 +159,25 @@
     {
       "fecha": "2026-11-25T09:00:00-03:00",
       "tipo": "short",
-      "titulo": "Configuración de página e imprimir",
-      "youtube_id": null,
+      "titulo": "Cómo configurar la página e imprimir un Google Doc (márgenes y tamaño)",
+      "youtube_id": "XfZlQH_KbtE",
       "playlist": "Shorts – Google Docs",
-      "estado": "planificado",
+      "estado": "programado",
       "leccion": 9,
       "menu": "Archivo",
-      "post": null,
+      "post": "blog/configurar-pagina-imprimir-google-docs.html",
       "issue": 9
     },
     {
       "fecha": "2026-11-25T17:00:00-03:00",
       "tipo": "short",
-      "titulo": "Grabar video dentro del documento",
-      "youtube_id": null,
+      "titulo": "Cómo grabar un video desde Google Docs (cámara y pantalla)",
+      "youtube_id": "pSZYR0pWgp0",
       "playlist": "Shorts – Google Docs",
-      "estado": "planificado",
+      "estado": "programado",
       "leccion": 10,
       "menu": "Archivo",
-      "post": null,
+      "post": "blog/grabar-video-google-docs.html",
       "issue": 10
     },
     {
