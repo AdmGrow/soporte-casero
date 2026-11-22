@@ -195,13 +195,13 @@
     {
       "fecha": "2026-11-26T17:00:00-03:00",
       "tipo": "short",
-      "titulo": "Deshacer, rehacer y pegar sin formato",
-      "youtube_id": null,
+      "titulo": "Cómo deshacer, rehacer y pegar sin formato en Google Docs (atajos)",
+      "youtube_id": "8bHuACqLX94",
       "playlist": "Shorts – Google Docs",
-      "estado": "planificado",
+      "estado": "programado",
       "leccion": 11,
       "menu": "Editar",
-      "post": null,
+      "post": "blog/deshacer-rehacer-pegar-sin-formato-google-docs.html",
       "issue": 11
     },
     {

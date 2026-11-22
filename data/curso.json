@@ -213,12 +213,13 @@
       "n": 11,
       "menu": "Editar",
       "titulo": "Deshacer, rehacer y pegar sin formato",
-      "estado": "pendiente",
-      "fecha": null,
-      "youtube_id": null,
-      "post": null,
+      "estado": "programado",
+      "fecha": "2026-11-26T17:00:00-03:00",
+      "youtube_id": "8bHuACqLX94",
+      "post": "blog/deshacer-rehacer-pegar-sin-formato-google-docs.html",
       "issue": 11,
-      "bloque": "Editar"
+      "bloque": "Editar",
+      "titulo_video": "Cómo deshacer, rehacer y pegar sin formato en Google Docs (atajos)"
     },
     {
       "n": 12,
