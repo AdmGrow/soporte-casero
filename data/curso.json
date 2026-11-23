@@ -1,6 +1,6 @@
 {
   "curso": "Curso de Google Documentos",
-  "actualizado": "2026-11-22",
+  "actualizado": "2026-11-23",
   "conteo_real": {
     "fecha": "2026-11-18",
     "menus": 9,
@@ -245,12 +245,13 @@
       "n": 13,
       "menu": "Ver",
       "titulo": "Modos: edición, sugerencias y visualización",
-      "estado": "pendiente",
-      "fecha": null,
-      "youtube_id": null,
-      "post": null,
+      "estado": "programado",
+      "fecha": "2026-11-27T17:00:00-03:00",
+      "youtube_id": "6sj2HyvoRBw",
+      "post": "blog/modos-edicion-sugerencias-visualizacion-google-docs.html",
       "issue": 13,
-      "bloque": "Ver"
+      "bloque": "Ver",
+      "titulo_video": "Modos de Google Docs: Edición, Sugerencias y Visualización #shorts"
     },
     {
       "n": 14,
