@@ -269,12 +269,13 @@
       "n": 15,
       "menu": "Ver",
       "titulo": "Pestañas y esquema del documento",
-      "estado": "pendiente",
-      "fecha": null,
-      "youtube_id": null,
-      "post": null,
+      "estado": "programado",
+      "fecha": "2026-11-28T17:00:00-03:00",
+      "youtube_id": "jRaIHG2otEw",
+      "post": "blog/pestanas-esquema-google-docs.html",
       "issue": 15,
-      "bloque": "Ver"
+      "bloque": "Ver",
+      "titulo_video": "Pestañas y esquema en Google Docs: ordená tu documento #shorts"
     },
     {
       "n": 16,
