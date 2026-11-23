@@ -231,13 +231,13 @@
     {
       "fecha": "2026-11-28T09:00:00-03:00",
       "tipo": "short",
-      "titulo": "Comentarios: insertar, responder, ocultar",
-      "youtube_id": null,
+      "titulo": "Comentarios en Google Docs: insertar, responder y ocultar",
+      "youtube_id": "Pijz58IiDlk",
       "playlist": "Shorts – Google Docs",
-      "estado": "planificado",
+      "estado": "programado",
       "leccion": 14,
       "menu": "Ver",
-      "post": null,
+      "post": "blog/comentarios-google-docs.html",
       "issue": 14
     },
     {

@@ -257,12 +257,13 @@
       "n": 14,
       "menu": "Ver",
       "titulo": "Comentarios: insertar, responder, ocultar",
-      "estado": "pendiente",
-      "fecha": null,
-      "youtube_id": null,
-      "post": null,
+      "estado": "programado",
+      "fecha": "2026-11-28T09:00:00-03:00",
+      "youtube_id": "Pijz58IiDlk",
+      "post": "blog/comentarios-google-docs.html",
       "issue": 14,
-      "bloque": "Ver"
+      "bloque": "Ver",
+      "titulo_video": "Comentarios en Google Docs: insertar, responder y ocultar #shorts"
     },
     {
       "n": 15,
