@@ -281,12 +281,13 @@
       "n": 16,
       "menu": "Ver",
       "titulo": "Regla, diseño de impresión, caracteres ocultos, pantalla completa",
-      "estado": "pendiente",
-      "fecha": null,
-      "youtube_id": null,
-      "post": null,
+      "estado": "programado",
+      "fecha": "2026-11-29T09:00:00-03:00",
+      "youtube_id": "lYbK8Pyv_Sg",
+      "post": "blog/regla-diseno-impresion-pantalla-completa-google-docs.html",
       "issue": 16,
-      "bloque": "Ver"
+      "bloque": "Ver",
+      "titulo_video": "Regla, diseño de impresión y pantalla completa en Google Docs #shorts"
     },
     {
       "n": 17,
