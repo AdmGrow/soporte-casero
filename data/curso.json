@@ -7,7 +7,7 @@
     "opciones_nivel1": 93,
     "subopciones": 123,
     "total": 216,
-    "cubiertas": 64
+    "cubiertas": 117
   },
   "bloque1": {
     "nombre": "Bloque 1 – Lo básico",
@@ -73,7 +73,15 @@
     },
     {
       "menu": "Insertar",
-      "opciones": 57
+      "opciones": 57,
+      "largo": {
+        "titulo": "Google Docs: menú Insertar paso a paso (tutorial completo)",
+        "estado": "programado",
+        "issue": 58,
+        "fecha": "2026-11-29T17:00:00-03:00",
+        "youtube_id": "22GidxStOHw",
+        "post": "blog/google-docs-menu-insertar.html"
+      }
     },
     {
       "menu": "Formato",

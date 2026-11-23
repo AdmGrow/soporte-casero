@@ -267,13 +267,13 @@
     {
       "fecha": "2026-11-29T17:00:00-03:00",
       "tipo": "largo",
-      "titulo": "Google Docs: menú Insertar paso a paso",
-      "youtube_id": null,
+      "titulo": "Google Docs: menú Insertar paso a paso (tutorial completo)",
+      "youtube_id": "22GidxStOHw",
       "playlist": "Google Docs paso a paso",
-      "estado": "planificado",
+      "estado": "programado",
       "leccion": null,
       "menu": "Insertar",
-      "post": null,
+      "post": "blog/google-docs-menu-insertar.html",
       "issue": 58
     },
     {
