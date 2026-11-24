@@ -313,12 +313,13 @@
       "n": 18,
       "menu": "Insertar",
       "titulo": "Tablas",
-      "estado": "pendiente",
-      "fecha": null,
-      "youtube_id": null,
-      "post": null,
+      "estado": "programado",
+      "fecha": "2026-11-30T17:00:00-03:00",
+      "youtube_id": "1kqASdpPydg",
+      "post": "blog/tablas-google-docs.html",
       "issue": 18,
-      "bloque": "Insertar"
+      "bloque": "Insertar",
+      "titulo_video": "Cómo hacer una tabla en Google Docs: insertar, sumar filas y borrar #shorts"
     },
     {
       "n": 19,

@@ -291,13 +291,13 @@
     {
       "fecha": "2026-11-30T17:00:00-03:00",
       "tipo": "short",
-      "titulo": "Tablas",
-      "youtube_id": null,
+      "titulo": "Cómo hacer una tabla en Google Docs: insertar, sumar filas y borrar",
+      "youtube_id": "1kqASdpPydg",
       "playlist": "Shorts – Google Docs",
-      "estado": "planificado",
+      "estado": "programado",
       "leccion": 18,
       "menu": "Insertar",
-      "post": null,
+      "post": "blog/tablas-google-docs.html",
       "issue": 18
     },
     {
