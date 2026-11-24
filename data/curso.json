@@ -325,12 +325,13 @@
       "n": 19,
       "menu": "Insertar",
       "titulo": "Elementos de creación (notas de reunión, bloque de código)",
-      "estado": "pendiente",
-      "fecha": null,
-      "youtube_id": null,
-      "post": null,
+      "estado": "programado",
+      "fecha": "2026-12-01T09:00:00-03:00",
+      "youtube_id": "qsJxaQqBZBg",
+      "post": "blog/elementos-de-creacion-google-docs.html",
       "issue": 19,
-      "bloque": "Insertar"
+      "bloque": "Insertar",
+      "titulo_video": "Bloque de código y notas de reunión en Google Docs: Elementos de creación #shorts"
     },
     {
       "n": 20,
