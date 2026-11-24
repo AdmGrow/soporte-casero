@@ -301,12 +301,13 @@
       "n": 17,
       "menu": "Insertar",
       "titulo": "Imágenes (subir, web, Drive, por URL, generar)",
-      "estado": "pendiente",
-      "fecha": null,
-      "youtube_id": null,
-      "post": null,
+      "estado": "programado",
+      "fecha": "2026-11-30T09:00:00-03:00",
+      "youtube_id": "DDg-mLpaPvk",
+      "post": "blog/imagenes-google-docs.html",
       "issue": 17,
-      "bloque": "Insertar"
+      "bloque": "Insertar",
+      "titulo_video": "Cómo insertar imágenes en Google Docs: 7 formas #shorts"
     },
     {
       "n": 18,
