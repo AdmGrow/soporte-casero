@@ -315,13 +315,13 @@
     {
       "fecha": "2026-12-01T17:00:00-03:00",
       "tipo": "short",
-      "titulo": "Chips inteligentes (fecha, personas, archivo, lugar)",
-      "youtube_id": null,
+      "titulo": "Chips inteligentes en Google Docs: fecha, personas, archivo y lugar",
+      "youtube_id": "k6ti1vV58XU",
       "playlist": "Shorts – Google Docs",
-      "estado": "planificado",
+      "estado": "programado",
       "leccion": 20,
       "menu": "Insertar",
-      "post": null,
+      "post": "blog/chips-inteligentes-google-docs.html",
       "issue": 20
     },
     {

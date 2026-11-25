@@ -337,12 +337,13 @@
       "n": 20,
       "menu": "Insertar",
       "titulo": "Chips inteligentes (fecha, personas, archivo, lugar)",
-      "estado": "pendiente",
-      "fecha": null,
-      "youtube_id": null,
-      "post": null,
+      "estado": "programado",
+      "fecha": "2026-12-01T17:00:00-03:00",
+      "youtube_id": "k6ti1vV58XU",
+      "post": "blog/chips-inteligentes-google-docs.html",
       "issue": 20,
-      "bloque": "Insertar"
+      "bloque": "Insertar",
+      "titulo_video": "Chips inteligentes en Google Docs: fecha, personas, archivo y lugar #shorts"
     },
     {
       "n": 21,
