@@ -349,12 +349,13 @@
       "n": 21,
       "menu": "Insertar",
       "titulo": "Menú desplegable y chips de marcador",
-      "estado": "pendiente",
-      "fecha": null,
-      "youtube_id": null,
-      "post": null,
+      "estado": "programado",
+      "fecha": "2026-12-02T09:00:00-03:00",
+      "youtube_id": "Eiied7F93nk",
+      "post": "blog/menu-desplegable-chips-marcador-google-docs.html",
       "issue": 21,
-      "bloque": "Insertar"
+      "bloque": "Insertar",
+      "titulo_video": "Menú desplegable y chips de marcador de posición en Google Docs #shorts"
     },
     {
       "n": 22,

@@ -327,13 +327,13 @@
     {
       "fecha": "2026-12-02T09:00:00-03:00",
       "tipo": "short",
-      "titulo": "Menú desplegable y chips de marcador",
-      "youtube_id": null,
+      "titulo": "Menú desplegable y chips de marcador de posición en Google Docs",
+      "youtube_id": "Eiied7F93nk",
       "playlist": "Shorts – Google Docs",
-      "estado": "planificado",
+      "estado": "programado",
       "leccion": 21,
       "menu": "Insertar",
-      "post": null,
+      "post": "blog/menu-desplegable-chips-marcador-google-docs.html",
       "issue": 21
     },
     {
