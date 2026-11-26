@@ -361,12 +361,13 @@
       "n": 22,
       "menu": "Insertar",
       "titulo": "Enlaces y marcadores",
-      "estado": "pendiente",
-      "fecha": null,
-      "youtube_id": null,
-      "post": null,
+      "estado": "programado",
+      "fecha": "2026-12-02T17:00:00-03:00",
+      "youtube_id": "ZCau6x4pjQs",
+      "post": "blog/enlaces-marcadores-google-docs.html",
       "issue": 22,
-      "bloque": "Insertar"
+      "bloque": "Insertar",
+      "titulo_video": "Cómo poner enlaces y marcadores en Google Docs #shorts"
     },
     {
       "n": 23,
