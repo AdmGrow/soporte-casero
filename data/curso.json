@@ -373,12 +373,13 @@
       "n": 23,
       "menu": "Insertar",
       "titulo": "Dibujos",
-      "estado": "pendiente",
-      "fecha": null,
-      "youtube_id": null,
-      "post": null,
+      "estado": "programado",
+      "fecha": "2026-12-03T09:00:00-03:00",
+      "youtube_id": "tfygz6ZXyFM",
+      "post": "blog/dibujos-google-docs.html",
       "issue": 23,
-      "bloque": "Insertar"
+      "bloque": "Insertar",
+      "titulo_video": "Cómo hacer un dibujo en Google Docs: formas y texto #shorts"
     },
     {
       "n": 24,

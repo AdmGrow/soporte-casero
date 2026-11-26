@@ -351,13 +351,13 @@
     {
       "fecha": "2026-12-03T09:00:00-03:00",
       "tipo": "short",
-      "titulo": "Dibujos",
-      "youtube_id": null,
+      "titulo": "Cómo hacer un dibujo en Google Docs: formas y texto",
+      "youtube_id": "tfygz6ZXyFM",
       "playlist": "Shorts – Google Docs",
-      "estado": "planificado",
+      "estado": "programado",
       "leccion": 23,
       "menu": "Insertar",
-      "post": null,
+      "post": "blog/dibujos-google-docs.html",
       "issue": 23
     },
     {
