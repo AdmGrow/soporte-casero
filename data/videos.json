@@ -363,13 +363,13 @@
     {
       "fecha": "2026-12-03T17:00:00-03:00",
       "tipo": "short",
-      "titulo": "Gráficos",
-      "youtube_id": null,
+      "titulo": "Cómo insertar un gráfico en Google Docs y actualizarlo",
+      "youtube_id": "RJlNZMHE6wk",
       "playlist": "Shorts – Google Docs",
-      "estado": "planificado",
+      "estado": "programado",
       "leccion": 24,
       "menu": "Insertar",
-      "post": null,
+      "post": "blog/graficos-google-docs.html",
       "issue": 24
     },
     {
