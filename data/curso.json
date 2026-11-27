@@ -7,7 +7,7 @@
     "opciones_nivel1": 93,
     "subopciones": 123,
     "total": 216,
-    "cubiertas": 117
+    "cubiertas": 121
   },
   "bloque1": {
     "nombre": "Bloque 1 – Lo básico",
@@ -421,12 +421,13 @@
       "n": 27,
       "menu": "Insertar",
       "titulo": "Saltos de página y de sección",
-      "estado": "pendiente",
-      "fecha": null,
-      "youtube_id": null,
-      "post": null,
+      "estado": "programado",
+      "fecha": "2026-12-05T09:00:00-03:00",
+      "youtube_id": "liFzhVb3ghw",
+      "post": "blog/saltos-pagina-seccion-google-docs.html",
       "issue": 27,
-      "bloque": "Insertar"
+      "bloque": "Insertar",
+      "titulo_video": "Saltos de página y de sección en Google Docs #shorts"
     },
     {
       "n": 28,

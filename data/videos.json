@@ -399,13 +399,13 @@
     {
       "fecha": "2026-12-05T09:00:00-03:00",
       "tipo": "short",
-      "titulo": "Saltos de página y de sección",
-      "youtube_id": null,
+      "titulo": "Saltos de página y de sección en Google Docs",
+      "youtube_id": "liFzhVb3ghw",
       "playlist": "Shorts – Google Docs",
-      "estado": "planificado",
+      "estado": "programado",
       "leccion": 27,
       "menu": "Insertar",
-      "post": null,
+      "post": "blog/saltos-pagina-seccion-google-docs.html",
       "issue": 27
     },
     {
