@@ -387,13 +387,13 @@
     {
       "fecha": "2026-12-04T17:00:00-03:00",
       "tipo": "short",
-      "titulo": "Ecuaciones",
-      "youtube_id": null,
+      "titulo": "Cómo escribir ecuaciones en Google Docs",
+      "youtube_id": "StHGuAZBk6Q",
       "playlist": "Shorts – Google Docs",
-      "estado": "planificado",
+      "estado": "programado",
       "leccion": 26,
       "menu": "Insertar",
-      "post": null,
+      "post": "blog/ecuaciones-google-docs.html",
       "issue": 26
     },
     {
