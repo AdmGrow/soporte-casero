@@ -397,12 +397,13 @@
       "n": 25,
       "menu": "Insertar",
       "titulo": "Emoji y caracteres especiales",
-      "estado": "pendiente",
-      "fecha": null,
-      "youtube_id": null,
-      "post": null,
+      "estado": "programado",
+      "fecha": "2026-12-04T09:00:00-03:00",
+      "youtube_id": "AuBgLxUINlo",
+      "post": "blog/emoji-caracteres-especiales-google-docs.html",
       "issue": 25,
-      "bloque": "Insertar"
+      "bloque": "Insertar",
+      "titulo_video": "Cómo poner emojis y caracteres especiales en Google Docs #shorts"
     },
     {
       "n": 26,

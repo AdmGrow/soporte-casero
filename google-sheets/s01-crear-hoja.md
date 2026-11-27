@@ -8,7 +8,7 @@ Largo asociado (después): L1 — Google Sheets desde cero: crear, escribir y da
 Categoría: Educación · No es para niños  
 IA: Contenido alterado o sintético = Sí. Descripción: «Voz generada con IA». Voz Elio, sin música.
 
-Slides (borrador): https://docs.google.com/presentation/d/1MODsNaOsHCqV_hTUpJW0kV80E_sDT6vaqV78rRlSwQ0/edit
+Slides (borrador): presentación interna del canal (privada; no se publica el enlace).
 
 Fuente oficial (consultada el 25/11/2026):  
 https://support.google.com/docs/answer/6000292?hl=es-419  

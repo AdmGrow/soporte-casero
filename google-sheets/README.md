@@ -2,11 +2,7 @@
 
 Serie de tutoriales para el canal de YouTube Soporte Casero. Plan y guiones listos el 25/11/2026 (hora de Argentina, ART).
 
-**Lucas no abre archivos .md:** la fuente de verdad del plan está en esta Google Sheet:
-
-https://docs.google.com/spreadsheets/d/1I8jQABENSGMX-77XfVSATrPXNGC-OBJ6i9ymLRlpYoM/edit
-
-Carpeta de Drive: https://drive.google.com/drive/folders/11mX4u507Tw7_yT7vjYhzRfS63rsVfJOH
+La fuente de verdad del plan es una hoja de cálculo interna del canal (privada; no se publica el enlace).
 
 ## Playlists propuestas
 
@@ -84,18 +80,17 @@ Solo Ayuda de Google / Centro de Aprendizaje, en es-419 cuando está disponible:
 
 ## Slides de los primeros Shorts (borrador)
 
-- S01: https://docs.google.com/presentation/d/1MODsNaOsHCqV_hTUpJW0kV80E_sDT6vaqV78rRlSwQ0/edit
-- S02: https://docs.google.com/presentation/d/1IUuqYsn2LZsTDl8p81VPCaUrP2WeVq414OGh7f2zjcg/edit
+- S01 y S02: presentaciones de borrador internas del canal (privadas; no se publica el enlace).
 
 Formato 9:16, 5 diapositivas, marca @soporteCasero, franja inferior libre para el overlay de YouTube, notas del orador listas para la voz Elio. **Faltan capturas reales** de la interfaz (sin datos personales). Hasta que se reemplacen los recuadros «Captura pendiente», no se pueden pasar a Google Vids: el canal no admite escenas solo de texto.
 
-Guiones y metadata completos: [s01-crear-hoja.md](s01-crear-hoja.md) y [s02-escribir-celdas.md](s02-escribir-celdas.md). El detalle también está en las pestañas «Guion S01» y «Guion S02» de la Sheet.
+Guiones y metadata completos: [s01-crear-hoja.md](s01-crear-hoja.md) y [s02-escribir-celdas.md](s02-escribir-celdas.md). El detalle también está en las pestañas «Guion S01» y «Guion S02» de la hoja interna.
 
 ## Qué falta (no se hizo en este turno)
 
 - Capturas reales (hace falta navegador y una cuenta de ejemplo).
 - Render en Google Vids (voz Elio, sin música) y por lo tanto no hay archivo MP4.
-- Crear las playlists y programar en YouTube Studio (cuando haya MP4 revisado). Lucas ya autorizó programar en ese momento: 2 por turno, máximo 5 al día, 2 publicados al día.
+- Crear las playlists y programar en YouTube Studio (cuando haya MP4 revisado). Programar está autorizado en ese momento: 2 por turno, máximo 5 al día, 2 publicados al día.
 - Posts en el sitio (`posts/` + `data/curso.json`). No se tocaron para no mezclarlos con la serie de Google Docs.
 
 Nada de esta carpeta entra al build del sitio (`tools/build.py` solo lee `posts/*.html` y `data/`).
