@@ -411,13 +411,13 @@
     {
       "fecha": "2026-12-05T17:00:00-03:00",
       "tipo": "short",
-      "titulo": "Índice automático",
-      "youtube_id": null,
+      "titulo": "Cómo hacer un índice automático en Google Docs",
+      "youtube_id": "a0erorh6qtY",
       "playlist": "Shorts – Google Docs",
-      "estado": "planificado",
+      "estado": "programado",
       "leccion": 28,
       "menu": "Insertar",
-      "post": null,
+      "post": "blog/indice-google-docs.html",
       "issue": 28
     },
     {
